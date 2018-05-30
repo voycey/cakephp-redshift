@@ -1,0 +1,23 @@
+{
+    "name": "digital2go/cakephp-redshift",
+    "description": "Redshift ORM Driver for CakePHP",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "require": {
+        "cakephp/cakephp": "^3.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7.14|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Digital2Go\\Redshift\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Digital2Go\\Redshift\\Test\\": "tests/",
+            "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
+        }
+    }
+}
