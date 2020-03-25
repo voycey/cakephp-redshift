@@ -1,6 +1,8 @@
 # Redshift plugin for CakePHP
 
-This plugin is still in development and hasn't been tested completely.  *Be extremely careful using this plugin and make sure your data is always backed up.*
+This plugin is no longer maintained. This was working and used in our platform at one time however since then we have moved away. Am leaving this as open source to hopefully allow someone to take this up and continue its use.
+
+*Be extremely careful using this plugin and make sure your data is always backed up.*
 
 ## Installation
 
@@ -9,7 +11,7 @@ You can install this plugin into your CakePHP application using [composer](http:
 The recommended way to install composer packages is:
 
 ```
-composer require digital2go/cakephp-redshift
+composer require voycey/cakephp-redshift
 ```
 
 You can set the datasource up in your `config/app.php`.
